@@ -1,0 +1,675 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact",
+      "impressum": "Imprint",
+      "datenschutz": "Privacy"
+    },
+    "cta": {
+      "getStarted": "Schedule Appointment",
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us",
+      "callNow": "+41 76 420 97 60",
+      "watchDemo": "Explore Services",
+      "submit": "Send Message",
+      "getDirections": "Get Directions"
+    },
+    "footer": {
+      "tagline": "Your trusted partner for professional auto body repair and windshield services in the Zurich region",
+      "copyright": "© 2024 Reale Continental GmbH. All rights reserved.",
+      "sections": {
+        "services": {
+          "title": "Services",
+          "bodywork": "Body Damage Repair",
+          "windshield": "Windshield Repair",
+          "insurance": "Insurance Claims",
+          "about": "About Luigi Reale",
+          "contact": "Contact Us"
+        },
+        "company": {
+          "title": "Company",
+          "about": "About Us",
+          "team": "Our Team",
+          "contact": "Contact",
+          "impressum": "Imprint",
+          "datenschutz": "Privacy Policy"
+        },
+        "contact": {
+          "title": "Contact",
+          "phone": "+41 76 420 97 60",
+          "email": "luigireale@hotmail.com"
+        }
+      },
+      "legal": {
+        "termsAndConditions": "Terms and Conditions",
+        "privacyPolicy": "Privacy Policy"
+      }
+    },
+    "company": {
+      "name": "Reale Continental GmbH",
+      "owner": "Luigi Reale",
+      "phone": "+41 76 420 97 60",
+      "email": "luigireale@hotmail.com"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Expert Auto Repair in Dielsdorf",
+      "title": "Auto Body & Windshield Repair in Dielsdorf – Professional Service You Can Trust",
+      "subtitle": "Expert auto repair services in Switzerland with direct insurance billing. Body damage repair, windshield repair, and hassle-free insurance claims handling – all from one trusted shop in Dielsdorf.",
+      "ctaPrimary": "Free Consultation",
+      "ctaSecondary": "Our Services"
+    },
+    "services": {
+      "title": "Our Complete Auto Repair Services",
+      "subtitle": "Professional repair solutions for all vehicle damage with seamless insurance claim management",
+      "items": [
+        {
+          "title": "Body Damage Repair",
+          "description": "Professional restoration of collision damage, dents, scratches, and paint work. We specialize in accident repairs and bodywork damage restoration, bringing your vehicle back to its original condition with expert craftsmanship.",
+          "features": [
+            "Accident & Collision Repair",
+            "Dent & Scratch Removal",
+            "Professional Paint & Refinishing"
+          ]
+        },
+        {
+          "title": "Windshield Repair & Replacement",
+          "description": "Fast windshield repair for stone chips or complete glass replacement when needed. Many small cracks can be repaired without full replacement, saving time and money with direct insurance billing.",
+          "features": [
+            "Stone Chip Repair",
+            "Windshield Replacement",
+            "Direct Insurance Settlement"
+          ]
+        },
+        {
+          "title": "Insurance Claim Assistance",
+          "description": "Complete insurance damage handling from start to finish. We coordinate with your insurance company, manage all documentation, and ensure no upfront costs to you. Our direct billing system makes everything simple.",
+          "features": [
+            "Damage Assessment & Documentation",
+            "Direct Insurance Billing",
+            "Replacement Vehicle Available"
+          ]
+        },
+        {
+          "title": "Swiss Quality Guarantee",
+          "description": "Quality craftsmanship and Swiss precision from owner Luigi Reale and his experienced team. Fast appointment scheduling, transparent pricing, and guaranteed workmanship on every repair.",
+          "features": [
+            "Certified Quality Standards",
+            "Quick Turnaround",
+            "Personal Owner Oversight"
+          ]
+        }
+      ]
+    },
+    "features": {
+      "title": "Why Choose Reale Continental?",
+      "subtitle": "The trusted auto repair partner in the Zurich region",
+      "items": [
+        {
+          "title": "Fast & Hassle-Free Service",
+          "description": "Quick appointments and streamlined service. Your vehicle is repaired and returned to you with minimal downtime. We respect your time and get the job done right the first time."
+        },
+        {
+          "title": "Direct Insurance Billing",
+          "description": "No advance payment required. We handle all communication and billing directly with your insurance company. You simply drop off your vehicle – we handle the rest."
+        },
+        {
+          "title": "Swiss Quality & Expertise",
+          "description": "Premium Swiss workmanship and materials. Original or equivalent parts only. Personal service from owner Luigi Reale with 5+ years of dedicated experience in professional auto repair."
+        }
+      ]
+    },
+    "process": {
+      "title": "Simple Repair Process",
+      "subtitle": "Three easy steps from damage to restoration",
+      "steps": [
+        {
+          "title": "Contact & Schedule",
+          "description": "Call us or send a message to schedule your free consultation. We discuss the damage, answer your questions, and arrange a convenient appointment time."
+        },
+        {
+          "title": "Assessment & Quote",
+          "description": "We inspect the damage, provide a detailed cost estimate, and coordinate with your insurance company to clarify coverage and approval."
+        },
+        {
+          "title": "Expert Repair & Delivery",
+          "description": "Our certified technicians complete your repair with precision. You'll receive progress updates, and your vehicle is delivered in perfect condition with our quality guarantee."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Reale Continental",
+      "subtitle": "Experience meets Swiss quality",
+      "description": "Luigi Reale leads a dedicated team with extensive experience in professional auto body repair and windshield services. Based in Dielsdorf, Switzerland, we serve private and business customers throughout the Zurich region with transparent, reliable service and Swiss-quality craftsmanship."
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "subtitle": "See why customers trust Reale Continental for their auto repairs",
+      "items": [
+        {
+          "name": "Marco S.",
+          "role": "Private Customer",
+          "text": "Excellent professional work and very fast! My car looks brand new. The direct insurance settlement was incredibly straightforward – exactly what I needed."
+        },
+        {
+          "name": "Sandra M.",
+          "role": "Business Customer",
+          "text": "Expert advice and fair transparent pricing. Luigi Reale personally managed everything from start to finish. I recommend them without hesitation!"
+        },
+        {
+          "name": "Thomas K.",
+          "role": "Private Customer",
+          "text": "After my parking accident, my car was fully repaired within days. Outstanding service, friendly team, and professional results. Very satisfied!"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Need Professional Auto Repair?",
+      "subtitle": "Contact us today for a free consultation, damage assessment, and quick appointment scheduling.",
+      "ctaPrimary": "Schedule Your Appointment",
+      "ctaSecondary": "View All Services"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "About Reale Continental",
+      "title": "Auto Repair Excellence: Luigi Reale and His Team – Your Partner in Dielsdorf, Switzerland",
+      "subtitle": "Swiss quality, personal service, and professional expertise. We've been your trusted partner for auto body repair and windshield services for 5+ years."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We are committed to delivering the highest quality auto repair services with personal attention to every customer. Our mission is to restore your vehicle with precision while making the repair process simple and stress-free through transparent communication and fair pricing."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": [
+        {
+          "title": "Quality & Excellence",
+          "description": "Premium Swiss craftsmanship in every repair. We use precision techniques and original or equivalent parts only. Your vehicle is restored to factory standards."
+        },
+        {
+          "title": "Reliability & Trustworthiness",
+          "description": "Appointments honored, promises kept. We deliver on our commitments consistently. You can count on Reale Continental to get the job done right, on time, every time."
+        },
+        {
+          "title": "Transparent Communication",
+          "description": "Clear, honest information at every step. Fair pricing with no hidden costs. You always know exactly what to expect and how your repair is progressing."
+        }
+      ]
+    },
+    "story": {
+      "title": "Our Journey to Excellence",
+      "subtitle": "5+ years serving the Zurich region with dedication",
+      "timeline": [
+        {
+          "year": "2019",
+          "title": "Founded with Purpose",
+          "description": "Luigi Reale established Reale Continental GmbH to provide first-class auto repair services with personal attention. The vision: make professional, transparent auto repair accessible to everyone."
+        },
+        {
+          "year": "2020",
+          "title": "Service Growth",
+          "description": "Expanded our service offerings to include comprehensive body damage repair, windshield services, and specialized insurance claim handling. Invested in modern repair equipment and training."
+        },
+        {
+          "year": "2022",
+          "title": "Regional Recognition",
+          "description": "Established direct partnerships with Switzerland's major insurance companies. Known throughout the Zurich Unterland region for reliable, professional service and customer care."
+        },
+        {
+          "year": "2024",
+          "title": "Trusted Partner",
+          "description": "Today, Reale Continental is recognized as one of the most trusted auto repair shops in the Dielsdorf area, serving hundreds of satisfied customers with proven results and unwavering commitment."
+        }
+      ]
+    },
+    "expertise": {
+      "title": "Our Auto Repair Expertise",
+      "subtitle": "Specialized knowledge in body damage repair, windshield services, and insurance claim management",
+      "description": "With 5+ years of dedicated experience, we have deep expertise in all types of vehicle damage repair. We understand both customer needs and insurance company processes inside and out. This dual expertise allows us to coordinate repairs seamlessly, handle all insurance documentation, and deliver fast, uncomplicated resolutions while maintaining Swiss quality standards throughout."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Expert technicians with passion for quality auto repair",
+      "members": [
+        {
+          "name": "Luigi Reale",
+          "role": "Owner & Founder",
+          "description": "Owner and founder with 5+ years of dedicated experience in professional auto body and windshield repair. Luigi personally oversees every major repair and maintains direct relationships with customers to ensure satisfaction and quality. His hands-on approach and commitment to excellence define the Reale Continental experience."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "5+",
+          "label": "Years Experience"
+        },
+        {
+          "value": "1000+",
+          "label": "Satisfied Customers"
+        },
+        {
+          "value": "100%",
+          "label": "Quality Guarantee"
+        },
+        {
+          "value": "24h",
+          "label": "Response Time"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Experience Our Service?",
+      "subtitle": "Contact Luigi Reale and the team today to schedule your free consultation and damage assessment.",
+      "ctaPrimary": "Contact Us Now",
+      "ctaSecondary": "View Our Services"
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Our Complete Service Portfolio",
+      "title": "Body Damage Repair, Windshield Repair & Insurance Claims in Dielsdorf",
+      "subtitle": "Full-service auto repair in Switzerland with direct insurance billing. Expert body damage restoration, professional windshield repair, and complete insurance claim coordination.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "Explore Services"
+    },
+    "overview": {
+      "title": "Complete Auto Repair Solutions",
+      "subtitle": "All your vehicle repair needs handled by one trusted shop",
+      "items": [
+        {
+          "title": "Body Damage Repair",
+          "description": "Expert restoration of collision damage, accident repairs, dents, paint damage, and bodywork issues. We use precision techniques and quality materials to restore your vehicle to factory specifications.",
+          "features": [
+            "Accident & Collision Repair",
+            "Dent & Scratch Removal",
+            "Professional Painting Services"
+          ]
+        },
+        {
+          "title": "Windshield Repair & Replacement",
+          "description": "Fast professional service for windshield damage. Many stone chips can be repaired without full replacement, saving time and money. Direct insurance billing available.",
+          "features": [
+            "Stone Chip Repair",
+            "Full Windshield Replacement",
+            "All Glass Types Available"
+          ]
+        },
+        {
+          "title": "Insurance Claim Management",
+          "description": "Complete handling of your insurance claim from start to finish. We coordinate directly with your insurance company, manage all documentation, and ensure zero upfront costs to you.",
+          "features": [
+            "Damage Documentation & Assessment",
+            "Direct Insurance Billing",
+            "Replacement Vehicle Coordination"
+          ]
+        },
+        {
+          "title": "Convenience Services",
+          "description": "Additional services designed for your comfort. Replacement vehicles, flexible pickup/delivery, and express service options available when you need quick turnaround.",
+          "features": [
+            "Loaner Vehicles",
+            "Pickup & Delivery Service",
+            "Fast Service Options"
+          ]
+        }
+      ]
+    },
+    "bodywork": {
+      "title": "Expert Body Damage Repair",
+      "description": "Professional restoration of all types of bodywork damage. Whether from accidents, parking incidents, hail, or collision, we repair your vehicle with Swiss precision and craftsmanship. Our expert technicians use modern equipment and quality materials to ensure your car looks and performs like new.",
+      "features": {
+        "title": "Body Damage Repair Services",
+        "items": [
+          "Accident & collision damage restoration",
+          "Parking damage and dent removal",
+          "Bumper, fender, and body panel repair",
+          "Hail damage professional repair",
+          "Rust damage treatment and prevention",
+          "Complete paint and refinishing work"
+        ]
+      }
+    },
+    "windshield": {
+      "title": "Professional Windshield Service",
+      "description": "Expert repair and replacement of windshields and vehicle glass. Many stone chips and small cracks can be repaired quickly without full replacement, saving you time and money. We handle direct insurance billing for seamless service. Fast turnaround and professional installation guaranteed.",
+      "features": {
+        "title": "Windshield & Glass Services",
+        "items": [
+          "Stone chip repair and sealing",
+          "Full windshield replacement service",
+          "Side window repair and replacement",
+          "Rear window service",
+          "Driver assistance system recalibration",
+          "Mobile repair service available"
+        ]
+      }
+    },
+    "insurance": {
+      "title": "Complete Insurance Claim Assistance",
+      "description": "We're your partner for stress-free damage claim settlement. From initial damage assessment through final delivery, we handle everything with your insurance company. No upfront costs. Direct billing. Complete documentation. We coordinate all communication so you can focus on getting your life back to normal.",
+      "features": {
+        "title": "Insurance Claim Services",
+        "items": [
+          "Professional damage documentation",
+          "Assessment report creation",
+          "Direct settlement with insurance",
+          "Replacement vehicle arrangement",
+          "Accurate cost estimation",
+          "Full insurance communication coordination"
+        ]
+      }
+    },
+    "process": {
+      "title": "Our Professional Repair Workflow",
+      "subtitle": "Transparent, professional service from damage to delivery",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Contact & Schedule",
+          "description": "Reach out by phone or email with details about your damage. We'll discuss your situation and arrange a convenient inspection appointment with no obligation."
+        },
+        {
+          "number": "02",
+          "title": "Assessment & Estimate",
+          "description": "We thoroughly inspect the damage, create a detailed cost estimate, and coordinate directly with your insurance company to clarify coverage and approval for the repair."
+        },
+        {
+          "number": "03",
+          "title": "Professional Repair",
+          "description": "Once approved, our certified technicians begin expert repair work. You receive regular progress updates and we maintain the highest quality standards throughout the entire repair process."
+        },
+        {
+          "number": "04",
+          "title": "Quality Check & Delivery",
+          "description": "We perform thorough final inspection and testing. Your vehicle is delivered in perfect condition with our complete quality guarantee. All work is backed by our warranty."
+        }
+      ]
+    },
+    "guarantees": {
+      "title": "Our Quality Commitments",
+      "items": [
+        {
+          "title": "Quality Guarantee",
+          "description": "All repairs meet the highest professional quality standards. We guarantee workmanship and lasting results on every repair we complete."
+        },
+        {
+          "title": "Original & Equivalent Parts",
+          "description": "We use only original manufacturer parts or certified equivalent replacements. No compromises on quality, durability, or fit."
+        },
+        {
+          "title": "Workmanship Warranty",
+          "description": "Full statutory warranty on all work performed. We stand behind our repairs with confidence in our expertise and materials."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "items": [
+        {
+          "name": "Peter H.",
+          "text": "Excellent work on my rear-end collision repair. Fast, professional service and the insurance claim settlement was handled perfectly by the team. Highly recommended!",
+          "role": "Private Customer"
+        },
+        {
+          "name": "Julia R.",
+          "text": "My windshield stone chip was professionally repaired in just 2 hours. Direct insurance billing made it completely hassle-free. Great service!",
+          "role": "Private Customer"
+        },
+        {
+          "name": "Andreas B.",
+          "text": "Competent technical advice and transparent pricing. My business fleet was ready on schedule. Professional and reliable – exactly what we need.",
+          "role": "Business Customer"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Need Professional Auto Repair Service?",
+      "subtitle": "Contact us today for a free damage assessment and repair consultation. We're here to help make your repair process simple and stress-free.",
+      "ctaPrimary": "Schedule Your Free Consultation",
+      "ctaSecondary": "Call +41 76 420 97 60"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title": "Contact Reale Continental – Auto Repair in Dielsdorf, Switzerland",
+      "subtitle": "Have questions about auto repair or need to schedule an appointment? Contact us today – we're here to help and ready to serve you."
+    },
+    "form": {
+      "badge": "Send Us a Message",
+      "title": "Contact Form",
+      "subtitle": "Tell us about your vehicle damage or repair needs. We'll respond within 24 hours with a free consultation offer.",
+      "fields": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Your full name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "your@email.ch"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Describe your vehicle damage or repair needs..."
+        }
+      },
+      "terms": "I accept the",
+      "termsLink": "Privacy Policy and Terms",
+      "submit": "Send Message",
+      "success": "Thank you! We received your message and will respond within 24 hours.",
+      "error": "An error occurred. Please try again or call us directly at +41 76 420 97 60."
+    },
+    "methods": {
+      "email": {
+        "title": "Email Us",
+        "description": "Have a question or need assistance? Send us an email and we'll respond within 24 hours with professional guidance and a free consultation offer.",
+        "contact": "luigireale@hotmail.com"
+      },
+      "phone": {
+        "title": "Call Us",
+        "description": "Prefer to talk directly with Luigi and his team? Call us Monday-Friday, 8:00 AM to 6:00 PM CET. Quick turnaround on free consultations guaranteed.",
+        "contact": "+41 76 420 97 60"
+      },
+      "office": {
+        "title": "Visit Our Workshop",
+        "description": "Visit us in person at our shop in Dielsdorf. We're conveniently located in the Zurich region. Appointments by arrangement – call ahead to ensure someone is available.",
+        "contact": "Get Directions"
+      }
+    },
+    "info": {
+      "title": "Reale Continental GmbH Contact Details",
+      "description": "Your trusted partner for professional auto body repair and windshield services in Switzerland",
+      "details": {
+        "company": "Reale Continental GmbH",
+        "owner": "Owner: Luigi Reale",
+        "phone": "Phone: +41 76 420 97 60",
+        "email": "Email: luigireale@hotmail.com",
+        "hours": "Hours: Monday-Friday, 8:00 AM - 6:00 PM CET"
+      }
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "24h",
+          "label": "Response Guarantee"
+        },
+        {
+          "value": "Mon-Fri",
+          "label": "Service Available"
+        },
+        {
+          "value": "100%",
+          "label": "Customer Satisfaction"
+        },
+        {
+          "value": "5+",
+          "label": "Years Experience"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Call us directly for immediate assistance with your auto repair needs.",
+      "ctaPrimary": "Call Now: +41 76 420 97 60",
+      "ctaSecondary": "View Services"
+    }
+  },
+  "impressum": {
+    "hero": {
+      "badge": "Legal Information",
+      "title": "Imprint",
+      "subtitle": "Legal company information as required by Swiss law"
+    },
+    "sections": {
+      "company": {
+        "title": "Company Information",
+        "name": "Reale Continental GmbH",
+        "owner": "Owner: Luigi Reale",
+        "phone": "Phone: +41 76 420 97 60",
+        "email": "Email: luigireale@hotmail.com"
+      },
+      "liability": {
+        "title": "Legal Disclaimer",
+        "content": {
+          "title": "Liability for Website Content",
+          "text": "The content of our website has been created with the utmost care and diligence. However, we cannot assume responsibility for the accuracy, completeness, and timeliness of all information provided on these pages."
+        },
+        "links": {
+          "title": "Liability for External Links",
+          "text": "Our website contains links to external websites operated by third parties. We have no control over the content of these external sites and therefore cannot accept responsibility for their contents or availability."
+        }
+      },
+      "copyright": {
+        "title": "Copyright Protection",
+        "text": "All contents and works published on this website are subject to Swiss copyright law. Reproduction, distribution, or any other use of content beyond the boundaries of copyright law requires the prior written permission of the copyright holder."
+      }
+    }
+  },
+  "datenschutz": {
+    "hero": {
+      "badge": "Privacy",
+      "title": "Privacy Policy",
+      "subtitle": "How we handle and protect your personal data"
+    },
+    "sections": {
+      "intro": {
+        "title": "Our Data Protection Commitment",
+        "text": "Reale Continental GmbH takes the protection of your personal data very seriously. We handle all personal information with strict confidentiality in compliance with Swiss data protection laws, including the Federal Data Protection Act (FADP)."
+      },
+      "collection": {
+        "title": "Data Collection on Our Website",
+        "contact": {
+          "title": "Contact Form Information",
+          "text": "When you submit information through our contact form, your name, email address, phone number, and message are collected and stored. This data is used to respond to your inquiry and for follow-up communication regarding your repair request or questions."
+        },
+        "logs": {
+          "title": "Automatic Server Log Data",
+          "intro": "Our web server automatically collects and stores information that your browser transmits. This technical data includes:",
+          "items": [
+            "Browser type and version information",
+            "Operating system in use",
+            "Referring website URL",
+            "Hostname of your computer",
+            "Date and time of your request",
+            "IP address"
+          ]
+        }
+      },
+      "rights": {
+        "title": "Your Data Protection Rights",
+        "text": "You have the right at any time to request information about what personal data we have stored about you, where it came from, who we've shared it with, and what we're using it for. You also have the right to request corrections, deletion, or blocking of your data. Contact us using the details in our Imprint to exercise these rights."
+      },
+      "contact": {
+        "title": "Privacy Questions",
+        "text": "If you have any questions or concerns about how we handle your data, or to exercise your data protection rights, please contact us using the contact details provided in our Imprint."
+      }
+    }
+  },
+  "metadata": {
+    "siteName": "Reale Continental GmbH",
+    "home": {
+      "title": "Auto Body & Windshield Repair Dielsdorf | +41 76 420 97 60",
+      "description": "Expert auto repair in Dielsdorf, Switzerland: Body damage repair, windshield repair, insurance claims. Direct insurance billing. Free consultation. Call +41 76 420 97 60"
+    },
+    "about": {
+      "title": "About Luigi Reale & Reale Continental – Auto Repair Expert",
+      "description": "Meet Luigi Reale and his team: 5+ years of professional auto body and windshield repair experience in Dielsdorf, Switzerland. Premium Swiss quality and personal service."
+    },
+    "services": {
+      "title": "Auto Repair Services | Reale Continental GmbH",
+      "description": "Complete auto repair services: Body damage repair, windshield repair and replacement, insurance claim assistance. Professional repairs with quality guarantee in Dielsdorf."
+    },
+    "contact": {
+      "title": "Contact Auto Repair Shop | Reale Continental",
+      "description": "Contact us for expert auto repairs: Phone +41 76 420 97 60 | Email luigireale@hotmail.com | Free consultation and fast appointment scheduling available."
+    },
+    "impressum": {
+      "title": "Legal Imprint | Reale Continental GmbH",
+      "description": "Legal company information and details for Reale Continental GmbH in Dielsdorf, Switzerland"
+    },
+    "datenschutz": {
+      "title": "Privacy Policy | Reale Continental GmbH",
+      "description": "Privacy policy and data protection information for Reale Continental GmbH in accordance with Swiss Federal Data Protection Act (FADP)"
+    }
+  },
+  "components": {
+    "feature167": {
+      "items": [
+        {
+          "title": "Body Damage Repair",
+          "description": "Professional restoration of accident damage, collision damage, dents, and paint work. We use precision techniques to restore your vehicle to factory condition."
+        },
+        {
+          "title": "Windshield Repair & Replacement",
+          "description": "Fast professional windshield repair for stone chips or complete glass replacement. Many cracks can be repaired without full replacement, saving time and cost."
+        },
+        {
+          "title": "Insurance Claim Management",
+          "description": "Complete insurance claim coordination from start to finish. Direct billing with your insurance company – zero upfront costs to you. Hassle-free process."
+        }
+      ]
+    },
+    "hero175": {
+      "badge": "Professional Auto Repair Services",
+      "title": "Expert Windshield & Body Damage Repair in Switzerland",
+      "subtitle": "Fast, professional auto repair with direct insurance billing. Complete body damage restoration and windshield services for your vehicle.",
+      "ctaPrimary": "Schedule Free Consultation",
+      "ctaSecondary": "Explore Our Services"
+    },
+    "navbar2": {
+      "menu": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "impressum": "Imprint",
+        "datenschutz": "Privacy"
+      },
+      "auth": {
+        "login": "Login",
+        "signup": "Sign up"
+      }
+    },
+    "footer2": {
+      "logo": "Reale Continental",
+      "tagline": "Your trusted partner for professional auto body repair and windshield services in the Zurich region",
+      "menu": {
+        "services": "Services",
+        "services_bodywork": "Body Damage Repair",
+        "services_windshield": "Windshield Repair",
+        "services_insurance": "Insurance Claims",
+        "about": "About Us",
+        "contact": "Contact",
+        "impressum": "Imprint",
+        "datenschutz": "Privacy Policy"
+      },
+      "copyright": "© 2024 Reale Continental GmbH. All rights reserved."
+    }
+  }
+}

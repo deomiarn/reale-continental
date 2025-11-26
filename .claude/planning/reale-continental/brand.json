@@ -1,0 +1,42 @@
+{
+  "name": "Reale Continental GmbH",
+  "tagline": "Swiss Auto Repair Excellence",
+  "style": "Premium Automotive - Ferrari Red & Gold",
+  "colors": {
+    "primary": "#c41e3a",
+    "primary-hover": "#a3182f",
+    "secondary": "#f5f0e6",
+    "accent": "#d4a853",
+    "background": "#fdfcfa",
+    "foreground": "#2d1f1a",
+    "muted": "#f0ebe3"
+  },
+  "palette_notes": {
+    "primary": "Ferrari Red - bold, passionate, action-oriented buttons",
+    "accent": "Rich Gold - luxury, premium feel, highlights",
+    "secondary": "Warm champagne - elegant, not cold gray",
+    "background": "Warm off-white - inviting, premium feel",
+    "overall": "Warm, inviting, premium automotive - no cold grays"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "tone": "premium-professional",
+  "logo": "public/Logos/Wordmark/svg/Local-Studios_Wordmark.svg",
+  "brand_details": {
+    "industry": "Automotive Repair & Insurance Services",
+    "location": "Switzerland",
+    "services": [
+      "Karosserieschäden (Body Damage)",
+      "Frontscheibenreparaturen/-tausch (Windshield Repair/Replacement)",
+      "Versicherungsschäden (Insurance Claims)",
+      "Direkte Abwicklung mit Versicherung (Direct Insurance Handling)"
+    ],
+    "owner": "Luigi Reale",
+    "contact": {
+      "phone": "076 420 97 60",
+      "email": "luigireale@hotmail.com"
+    }
+  }
+}

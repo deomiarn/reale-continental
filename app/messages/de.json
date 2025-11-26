@@ -1,1 +1,697 @@
-{}
+{
+  "common": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Leistungen",
+      "contact": "Kontakt",
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutz"
+    },
+    "cta": {
+      "getStarted": "Jetzt starten",
+      "learnMore": "Mehr erfahren",
+      "contactUs": "Kontakt aufnehmen",
+      "callNow": "Jetzt anrufen",
+      "watchDemo": "Demo ansehen",
+      "submit": "Absenden",
+      "getDirections": "Route anzeigen"
+    },
+    "footer": {
+      "tagline": "Ihr zuverlässiger Partner rund ums Auto",
+      "copyright": "© 2024 Reale Continental GmbH. Alle Rechte vorbehalten.",
+      "sections": {
+        "services": {
+          "title": "Leistungen",
+          "bodywork": "Karosserieschäden",
+          "windshield": "Frontscheibenreparatur",
+          "insurance": "Versicherungsschäden",
+          "about": "Über uns",
+          "contact": "Kontakt"
+        },
+        "company": {
+          "title": "Unternehmen",
+          "about": "Über uns",
+          "team": "Unser Team",
+          "contact": "Kontakt",
+          "impressum": "Impressum",
+          "datenschutz": "Datenschutz"
+        },
+        "contact": {
+          "title": "Kontakt",
+          "phone": "+41 76 420 97 60",
+          "email": "luigireale@hotmail.com"
+        }
+      },
+      "legal": {
+        "termsAndConditions": "Allgemeine Geschäftsbedingungen",
+        "privacyPolicy": "Datenschutzerklärung"
+      }
+    },
+    "company": {
+      "name": "Reale Continental GmbH",
+      "owner": "Luigi Reale",
+      "phone": "+41 76 420 97 60",
+      "email": "luigireale@hotmail.com"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Professionelle Autoreparaturen in Dielsdorf & Umgebung",
+      "title": "Autoreparaturen in Dielsdorf – Ihre Experten für Karosserieschäden & Frontscheibenreparatur",
+      "subtitle": "Von Karosserieschäden bis zur Frontscheibenreparatur: Wir reparieren professionell und rechnen direkt mit Ihrer Versicherung ab. Persönliche Betreuung durch Luigi Reale, schnelle Termine, keine Vorleistung erforderlich.",
+      "ctaPrimary": "Kostenlose Beratung",
+      "ctaSecondary": "Unsere Leistungen"
+    },
+    "services": {
+      "title": "Unsere Leistungen",
+      "subtitle": "Karosserieschäden, Frontscheibenreparatur und Versicherungsabwicklung – alles aus einer Hand mit direkter Versicherungsabrechnung.",
+      "items": [
+        {
+          "title": "Karosserieschäden",
+          "description": "Professionelle Reparatur von Blechschäden, Dellen, Lackschäden und Unfallschäden. Wir stellen Ihr Fahrzeug in den Originalzustand zurück mit zertifizierter Schweizer Qualität.",
+          "features": [
+            "Unfallreparaturen",
+            "Dellenentfernung",
+            "Lackierarbeiten"
+          ]
+        },
+        {
+          "title": "Frontscheibenreparatur",
+          "description": "Schnelle Reparatur oder Austausch bei Steinschlag. Kleine Schäden reparieren wir oft ohne kompletten Austausch und rechnen direkt mit Ihrer Versicherung ab.",
+          "features": [
+            "Steinschlagreparatur",
+            "Scheibenaustausch",
+            "Direkte Abrechnung"
+          ]
+        },
+        {
+          "title": "Versicherungsschäden",
+          "description": "Komplette Abwicklung Ihres Versicherungsschadens von der Begutachtung bis zur Übergabe. Direkte Kommunikation mit Ihrer Versicherung, keine Vorleistung erforderlich.",
+          "features": [
+            "Schadensgutachten",
+            "Direktabrechnung",
+            "Ersatzfahrzeug"
+          ]
+        },
+        {
+          "title": "Qualitätsgarantie",
+          "description": "Schweizer Qualität mit persönlicher Betreuung durch Inhaber Luigi Reale. Schnelle Terminvergabe, transparente Kommunikation, garantierte Qualität auf alle Reparaturen.",
+          "features": [
+            "Zertifizierte Qualität",
+            "Schnelle Termine",
+            "Persönliche Betreuung"
+          ]
+        }
+      ]
+    },
+    "features": {
+      "title": "Warum Reale Continental?",
+      "subtitle": "Ihr vertrauenswürdiger Partner für Autoreparaturen in Dielsdorf und der Region Zürich Unterland",
+      "items": [
+        {
+          "title": "Schnell & Unkompliziert",
+          "description": "24-stündige Rückmeldung garantiert. Kurzfristige Terminvergabe, schnelle Abwicklung – Ihr Fahrzeug ist in kürzester Zeit wieder einsatzbereit."
+        },
+        {
+          "title": "Direkte Versicherungsabwicklung",
+          "description": "Keine Vorleistung erforderlich. Wir koordinieren die komplette Kommunikation mit Ihrer Versicherung und kümmern uns um alles – Sie müssen sich um nichts kümmern."
+        },
+        {
+          "title": "Schweizer Qualität",
+          "description": "Höchste Qualitätsstandards bei allen Autoreparaturen. Zertifizierte Techniker, Originalteile, transparente Preise und vollständige Gewährleistung."
+        }
+      ]
+    },
+    "process": {
+      "title": "So einfach geht's",
+      "subtitle": "Von der Schadensmeldung bis zur Übergabe in vier Schritten",
+      "steps": [
+        {
+          "title": "Kontakt aufnehmen",
+          "description": "Rufen Sie uns an (+41 76 420 97 60) oder schreiben Sie eine Nachricht. Wir besprechen den Schaden und vereinbaren schnell einen Termin zur Begutachtung."
+        },
+        {
+          "title": "Schadensbegutachtung",
+          "description": "Wir analysieren den Schaden professionell, erstellen einen detaillierten Kostenvoranschlag und koordinieren alles mit Ihrer Versicherung."
+        },
+        {
+          "title": "Professionelle Reparatur",
+          "description": "Nach Freigabe führen wir die Reparatur fachgerecht durch. Sie erhalten regelmäßig Updates zum Fortschritt Ihrer Autoreparatur."
+        }
+      ]
+    },
+    "about": {
+      "title": "Über Reale Continental",
+      "subtitle": "Erfahrung trifft auf Qualität",
+      "description": "Luigi Reale und sein Team bringen über 5 Jahre Erfahrung in der Fahrzeugreparatur mit. Mit Sitz in Dielsdorf im Zürcher Unterland bieten wir professionelle Autoreparaturen für Privat- und Geschäftskunden aus der Region und darüber hinaus – mit persönlicher Betreuung und garantierter Schweizer Qualität."
+    },
+    "testimonials": {
+      "title": "Das sagen unsere Kunden",
+      "subtitle": "Zufriedene Kunden sind unser bester Beweis",
+      "items": [
+        {
+          "name": "Marco S.",
+          "role": "Privatkunde",
+          "text": "Sehr professionell und schnell! Mein Auto sieht aus wie neu. Die direkte Abwicklung mit der Versicherung war super unkompliziert. Absolut empfehlenswert!"
+        },
+        {
+          "name": "Sandra M.",
+          "role": "Geschäftskundin",
+          "text": "Kompetente Beratung, faire Preise und Luigi Reale kümmert sich persönlich um alles. Genau das, was man sich von einer lokalen Werkstatt in Dielsdorf wünscht."
+        },
+        {
+          "name": "Thomas K.",
+          "role": "Privatkunde",
+          "text": "Nach einem Parkschaden war mein Auto innerhalb weniger Tage repariert. Top Service, freundliche Betreuung und transparente Kommunikation vom ersten Kontakt an."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Benötigen Sie eine Autoreparatur?",
+      "subtitle": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und vereinbaren Sie schnell einen Termin.",
+      "ctaPrimary": "Jetzt Termin vereinbaren",
+      "ctaSecondary": "Anrufen: +41 76 420 97 60"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Über Reale Continental",
+      "title": "Über Reale Continental: Luigi Reale und sein Team – Ihr Partner für Autoreparaturen",
+      "subtitle": "Qualität, Erfahrung und persönliche Betreuung – das sind die Werte, die uns auszeichnen. Mit 5+ Jahren Erfahrung sind wir im Zürcher Unterland verwurzelt."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir setzen auf höchste Qualitätsstandards und persönlichen Service bei jeder Autoreparatur. Jeder Kunde erhält die individuelle Betreuung, die er verdient. Luigi Reale kümmert sich persönlich um Ihre Anliegen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        {
+          "title": "Qualität",
+          "description": "Schweizer Qualität bei jeder Karosserie- und Glasreparatur. Wir arbeiten präzise und verwenden nur Originalteile oder hochwertige Ersatzteile."
+        },
+        {
+          "title": "Zuverlässigkeit",
+          "description": "Schnelle Terminvergabe, pünktliche Übergabe, Versprechen werden erfüllt. Darauf können Sie sich verlassen – in Dielsdorf seit über 5 Jahren."
+        },
+        {
+          "title": "Transparenz",
+          "description": "Klare Kommunikation, faire Preise und detaillierte Kostenvoranschläge. Sie wissen immer, woran Sie sind und wie es mit Ihrer Autoreparatur vorangeht."
+        }
+      ]
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Langjährige Erfahrung im Dienste unserer Kunden",
+      "timeline": [
+        {
+          "year": "2019",
+          "title": "Gründung",
+          "description": "Luigi Reale gründet Reale Continental GmbH mit dem Ziel, erstklassigen Service und professionelle Karosserieschäden-Reparaturen in Dielsdorf zu bieten."
+        },
+        {
+          "year": "2020",
+          "title": "Expansion",
+          "description": "Erweiterung des Leistungsangebots um Frontscheibenreparatur und -tausch. Werkstattkapazitäten werden ausgebaut für mehr Autoreparaturen pro Woche."
+        },
+        {
+          "year": "2022",
+          "title": "Partnerschaften",
+          "description": "Direkte Partnerschaften mit allen grossen Schweizer Versicherungen ermöglichen Direktabrechnung ohne Vorleistung für unsere Kunden."
+        },
+        {
+          "year": "2024",
+          "title": "Heute",
+          "description": "Einer der vertrauenswürdigsten Partner für Autoreparaturen in der Region Dielsdorf, Regensdorf, Bülach und Niederhasli. Über 1000 zufriedene Kunden."
+        }
+      ]
+    },
+    "expertise": {
+      "title": "Unsere Expertise",
+      "subtitle": "Spezialisiert auf Karosserieschäden, Frontscheibenreparatur und Versicherungsabwicklung",
+      "description": "Mit über 5 Jahren Erfahrung in professionellen Karosseriereparaturen verstehen wir die Anforderungen unserer Kunden und die komplexen Prozesse der Versicherungsabwicklung. Diese Fachkompetenz ermöglicht uns schnelle Reparaturen, faire Kostenvoranschläge und unkomplizierte Direktabrechnung."
+    },
+    "team": {
+      "title": "Unser Team",
+      "subtitle": "Erfahrene Fachkräfte mit Leidenschaft für Autoreparaturen",
+      "members": [
+        {
+          "name": "Luigi Reale",
+          "role": "Geschäftsführer & Inhaber",
+          "description": "Gründer und Geschäftsführer mit über 5 Jahren Erfahrung in der professionellen Fahrzeugreparatur. Luigi Reale kümmert sich persönlich um Ihre Autoreparatur."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "5+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "1000+",
+          "label": "Zufriedene Kunden"
+        },
+        {
+          "value": "100%",
+          "label": "Qualitätsgarantie"
+        },
+        {
+          "value": "24h",
+          "label": "Schnelle Rückmeldung"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lernen Sie uns kennen",
+      "subtitle": "Vereinbaren Sie noch heute einen unverbindlichen Beratungstermin mit Luigi Reale und seinem Team.",
+      "ctaPrimary": "Kontakt aufnehmen",
+      "ctaSecondary": "Unsere Leistungen ansehen"
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Unsere Leistungen",
+      "title": "Unsere Services: Karosserieschäden, Frontscheibenreparatur & Versicherungsabwicklung",
+      "subtitle": "Vollständiger Service für Ihr Fahrzeug: Von professioneller Schadensbegutachtung bis zur finalen Qualitätskontrolle – Karosserieschäden, Frontscheiben und Versicherungsabwicklung.",
+      "ctaPrimary": "Beratung anfragen",
+      "ctaSecondary": "Jetzt Termin vereinbaren"
+    },
+    "overview": {
+      "title": "Umfassende Autoreparaturen",
+      "subtitle": "Alle Leistungen für Ihr Fahrzeug an einem Ort – professionelle Karosserieschäden-Reparatur, Frontscheibenreparatur und komplette Versicherungsabwicklung.",
+      "items": [
+        {
+          "title": "Karosserie & Lack",
+          "description": "Professionelle Reparatur von Unfallschäden, Blechschäden, Dellen und komplexen Lackierarbeiten nach höchsten Schweizer Qualitätsstandards.",
+          "features": [
+            "Unfallreparaturen",
+            "Dellenentfernung",
+            "Lackierung & Politur"
+          ]
+        },
+        {
+          "title": "Glasschäden",
+          "description": "Schnelle Reparatur und Austausch von Windschutzscheiben. Kleine Steinschläge reparieren wir oft ohne kompletten Scheibenwechsel.",
+          "features": [
+            "Steinschlagreparatur",
+            "Scheibenaustausch",
+            "Kalibrierung Assistenzsysteme"
+          ]
+        },
+        {
+          "title": "Versicherungsservice",
+          "description": "Komplette Abwicklung mit Ihrer Versicherung von A bis Z. Direktabrechnung ohne Vorleistung – wir kümmern uns um alles.",
+          "features": [
+            "Schadensgutachten",
+            "Direktabrechnung",
+            "Kostenvoranschlag"
+          ]
+        },
+        {
+          "title": "Zusatzleistungen",
+          "description": "Ersatzfahrzeuge, Abholung und Lieferung, Express-Service – weitere Convenience-Services für Ihre Bequemlichkeit.",
+          "features": [
+            "Ersatzfahrzeug",
+            "Abholung & Lieferung",
+            "Express-Service"
+          ]
+        }
+      ]
+    },
+    "bodywork": {
+      "title": "Karosserieschäden",
+      "description": "Parkschäden, Unfallschäden, Hagelschäden – wir reparieren alle Arten von Karossiereschäden professionell und zuverlässig. Fachgerechte Bearbeitung mit Originalteilen und kompletter Lackierung.",
+      "features": {
+        "title": "Was wir reparieren",
+        "items": [
+          "Blechschäden nach Unfällen",
+          "Parkschäden und Dellen",
+          "Stoßstangen und Kotflügel",
+          "Hagelschäden",
+          "Rostschäden",
+          "Komplette Lackierungen"
+        ]
+      }
+    },
+    "windshield": {
+      "title": "Frontscheibenreparatur",
+      "description": "Steinschlag auf der Windschutzscheibe? Kleine Schäden reparieren wir oft ohne teuren kompletten Austausch. Schnelle Reparatur und direkte Versicherungsabrechnung.",
+      "features": {
+        "title": "Unsere Glasleistungen",
+        "items": [
+          "Steinschlag-Reparatur",
+          "Frontscheiben-Austausch",
+          "Seitenscheiben",
+          "Heckscheiben",
+          "Kalibrierung Fahrassistenten",
+          "Mobile Reparatur möglich"
+        ]
+      }
+    },
+    "insurance": {
+      "title": "Versicherungsabwicklung",
+      "description": "Wir sind Ihr zuverlässiger Partner bei der Schadensabwicklung. Von professioneller Begutachtung bis zur Übergabe Ihres reparierten Fahrzeugs – komplette Direktabrechnung mit allen Schweizer Versicherungen.",
+      "features": {
+        "title": "Unser Service",
+        "items": [
+          "Schadensdokumentation",
+          "Gutachten erstellen",
+          "Direktabrechnung mit Versicherung",
+          "Ersatzfahrzeug organisieren",
+          "Kostenvoranschlag",
+          "Kommunikation mit Versicherung"
+        ]
+      }
+    },
+    "process": {
+      "title": "Unser Reparaturprozess",
+      "subtitle": "Transparent und professionell von Anfang bis Ende",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Schadensmeldung",
+          "description": "Kontaktieren Sie uns telefonisch (+41 76 420 97 60) oder per E-Mail. Wir besprechen den Schaden fachkundig und vereinbaren schnell einen Termin zur Begutachtung."
+        },
+        {
+          "number": "02",
+          "title": "Begutachtung & Angebot",
+          "description": "Professionelle Schadensanalyse, detaillierter Kostenvoranschlag und vollständige Koordination mit Ihrer Versicherung – transparent und verständlich."
+        },
+        {
+          "number": "03",
+          "title": "Reparatur",
+          "description": "Nach Genehmigung führen wir die Autoreparatur fachgerecht durch. Regelmäßige Updates halten Sie über den Fortschritt Ihrer Reparatur informiert."
+        },
+        {
+          "number": "04",
+          "title": "Qualitätskontrolle & Übergabe",
+          "description": "Gründliche Endkontrolle nach schweizer Qualitätsstandards. Sie können Ihr repariertes Fahrzeug abholen – alle Arbeiten sind garantiert."
+        }
+      ]
+    },
+    "guarantees": {
+      "title": "Unsere Garantien",
+      "items": [
+        {
+          "title": "Qualitätsgarantie",
+          "description": "Alle Karosserie- und Glasreparaturen entsprechen höchsten Qualitätsstandards und schweizer Normen."
+        },
+        {
+          "title": "Originalteile",
+          "description": "Wir verwenden nur Original- oder hochwertig gleichwertige Ersatzteile bei allen Autoreparaturen."
+        },
+        {
+          "title": "Gewährleistung",
+          "description": "Vollständige gesetzliche Gewährleistung auf alle durchgeführten Reparaturarbeiten."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Kundenerfahrungen",
+      "items": [
+        {
+          "name": "Peter H.",
+          "text": "Schnelle und professionelle Karosseriereparatur nach einem Auffahrunfall. Die Versicherungsabwicklung lief vollkommen problemlos ab. Empfehlenswert!",
+          "role": "Privatkunde"
+        },
+        {
+          "name": "Julia R.",
+          "text": "Steinschlag in der Frontscheibe wurde innerhalb von 2 Stunden professionell repariert. Luigi Reale und sein Team sind sehr freundlich und kompetent!",
+          "role": "Privatkundin"
+        },
+        {
+          "name": "Andreas B.",
+          "text": "Kompetente Beratung, faire Preise und pünktliche Übergabe. Genau das, was man von einer seriösen Werkstatt in Dielsdorf erwartet.",
+          "role": "Geschäftskunde"
+        }
+      ]
+    },
+    "additional": {
+      "title": "Zusätzliche Services",
+      "description": "Für Ihre Bequemlichkeit bieten wir weitere Service-Leistungen rund um Ihre Autoreparatur an."
+    },
+    "cta": {
+      "title": "Benötigen Sie eine Reparatur?",
+      "subtitle": "Kontaktieren Sie uns für eine kostenlose Beratung und professionelle Schadensbegutachtung.",
+      "ctaPrimary": "Jetzt Termin buchen",
+      "ctaSecondary": "Anrufen: +41 76 420 97 60"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Kontakt",
+      "title": "Kontakt: Vereinbaren Sie jetzt Ihren Termin für Autoreparaturen in Dielsdorf",
+      "subtitle": "Haben Sie Fragen zu unseren Leistungen oder benötigen Sie einen Reparaturtermin? Kontaktieren Sie uns noch heute – wir helfen Ihnen gerne mit kostenloser Beratung weiter."
+    },
+    "form": {
+      "badge": "Kontakt aufnehmen",
+      "title": "Schreiben Sie uns",
+      "subtitle": "Wir sind hier um zu helfen – melden Sie sich mit Fragen oder Ihrem Reparaturanliegen. Rückmeldung innerhalb 24 Stunden garantiert.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Ihr vollständiger Name"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "ihre@email.ch"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Beschreiben Sie Ihr Anliegen, den Fahrzeugschaden oder Ihre Anfrage..."
+        }
+      },
+      "terms": "Ich akzeptiere die",
+      "termsLink": "Allgemeinen Geschäftsbedingungen",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "methods": {
+      "email": {
+        "title": "E-Mail",
+        "description": "Haben Sie eine Frage zu Autoreparaturen oder benötigen professionelle Beratung? Schreiben Sie uns an luigireale@hotmail.com und wir antworten innerhalb von 24 Stunden.",
+        "contact": "luigireale@hotmail.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "description": "Lieber ein persönliches Gespräch? Rufen Sie uns direkt an. Montag bis Freitag 08:00 bis 18:00 Uhr. Luigi Reale oder sein Team kümmern sich um Ihre Anfrage.",
+        "contact": "+41 76 420 97 60"
+      },
+      "office": {
+        "title": "Werkstatt",
+        "description": "Besuchen Sie uns direkt in unserer Werkstatt in Dielsdorf für eine persönliche Beratung. Termine nach Vereinbarung.",
+        "contact": "Route anzeigen"
+      }
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "description": "Reale Continental GmbH – Ihr Partner für professionelle Autoreparaturen in Dielsdorf und der Region Zürich Unterland.",
+      "details": {
+        "company": "Reale Continental GmbH",
+        "owner": "Inhaber: Luigi Reale",
+        "phone": "Telefon: +41 76 420 97 60",
+        "email": "E-Mail: luigireale@hotmail.com",
+        "hours": "Öffnungszeiten: Mo–Fr 08:00–18:00"
+      }
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "24h",
+          "label": "Antwortzeit garantiert"
+        },
+        {
+          "value": "7 Tage",
+          "label": "Service pro Woche"
+        },
+        {
+          "value": "100%",
+          "label": "Kundenzufriedenheit"
+        },
+        {
+          "value": "5+",
+          "label": "Jahre Erfahrung"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lieber telefonisch?",
+      "subtitle": "Rufen Sie uns direkt an für schnelle Beratung und schnelle Terminvergabe für Ihre Autoreparatur.",
+      "ctaPrimary": "+41 76 420 97 60",
+      "ctaSecondary": "Zurück zu Leistungen"
+    }
+  },
+  "impressum": {
+    "hero": {
+      "badge": "Rechtliches",
+      "title": "Impressum",
+      "subtitle": "Angaben gemäß den gesetzlichen Bestimmungen der Schweiz"
+    },
+    "sections": {
+      "company": {
+        "title": "Angaben gemäß § 5 TMG",
+        "name": "Reale Continental GmbH",
+        "owner": "Inhaber: Luigi Reale",
+        "phone": "Telefon: +41 76 420 97 60",
+        "email": "E-Mail: luigireale@hotmail.com"
+      },
+      "liability": {
+        "title": "Haftungsausschluss",
+        "content": {
+          "title": "Haftung für Inhalte",
+          "text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
+        },
+        "links": {
+          "title": "Haftung für Links",
+          "text": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen."
+        }
+      },
+      "copyright": {
+        "title": "Urheberrecht",
+        "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem schweizerischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+      }
+    }
+  },
+  "datenschutz": {
+    "hero": {
+      "badge": "Datenschutz",
+      "title": "Datenschutzerklärung",
+      "subtitle": "Informationen zur Verarbeitung Ihrer personenbezogenen Daten"
+    },
+    "sections": {
+      "intro": {
+        "title": "Datenschutzerklärung",
+        "text": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung."
+      },
+      "collection": {
+        "title": "Datenerfassung auf unserer Website",
+        "contact": {
+          "title": "Kontaktformular",
+          "text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert."
+        },
+        "logs": {
+          "title": "Server-Log-Dateien",
+          "intro": "Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:",
+          "items": [
+            "Browsertyp und Browserversion",
+            "verwendetes Betriebssystem",
+            "Referrer URL",
+            "Hostname des zugreifenden Rechners",
+            "Uhrzeit der Serveranfrage",
+            "IP-Adresse"
+          ]
+        }
+      },
+      "rights": {
+        "title": "Ihre Rechte",
+        "text": "Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung. Sie haben außerdem ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Bei Fragen zum Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
+      }
+    }
+  },
+  "metadata": {
+    "siteName": "Reale Continental GmbH",
+    "home": {
+      "title": "Autoreparaturen Dielsdorf | Reale Continental | +41 76 420 97 60",
+      "description": "Professionelle Karosserieschäden & Frontscheibenreparatur in Dielsdorf. Direktabrechnung mit Versicherung. 5+ Jahre Erfahrung. Jetzt anrufen: +41 76 420 97 60"
+    },
+    "about": {
+      "title": "Über Luigi Reale | Karosseriespezialist seit 5+ Jahren",
+      "description": "Luigi Reale und Team: Ihr Partner für professionelle Karosseriereparaturen in Dielsdorf. Schweizer Qualität, persönliche Betreuung. Mehr über uns erfahren."
+    },
+    "services": {
+      "title": "Karosserieschäden & Frontscheibe | Reale Continental Dielsdorf",
+      "description": "Vollservice für Karosserieschäden, Frontscheibenreparatur/-tausch, Versicherungsschäden. Direktabrechnung mit Ihrer Versicherung. Termin: +41 76 420 97 60"
+    },
+    "contact": {
+      "title": "Kontakt | Reale Continental Dielsdorf | +41 76 420 97 60",
+      "description": "Kontaktieren Sie uns für Autoreparaturen: Tel +41 76 420 97 60, Email luigireale@hotmail.com. Mo-Fr 08:00-18:00. Kostenlose Erstberatung & schnelle Termine."
+    },
+    "impressum": {
+      "title": "Impressum | Reale Continental GmbH Dielsdorf",
+      "description": "Rechtliche Informationen und Firmendaten: Reale Continental GmbH, 8157 Dielsdorf, Schweiz. Inhaber: Luigi Reale."
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung | Reale Continental GmbH Dielsdorf",
+      "description": "Datenschutzerklärung gemäß Schweizer Bundesgesetz über den Datenschutz (FADP). Informationen zu Datenerhebung und -verarbeitung."
+    }
+  },
+  "components": {
+    "feature167": {
+      "items": [
+        {
+          "title": "Karosserieschäden",
+          "description": "Professionelle Reparatur aller Arten von Karosserieschäden: Unfallschäden, Dellen, Blechschäden und Lackschäden. Wir bringen Ihr Fahrzeug in den Originalzustand zurück."
+        },
+        {
+          "title": "Frontscheibenreparatur",
+          "description": "Schnelle und professionelle Reparatur oder Austausch Ihrer Windschutzscheibe. Kleine Steinschläge reparieren wir oft ohne teuren kompletten Austausch."
+        },
+        {
+          "title": "Versicherungsabwicklung",
+          "description": "Wir übernehmen die komplette Kommunikation mit Ihrer Versicherung. Direkte Abrechnung ohne Vorleistung – professionell und zuverlässig."
+        }
+      ]
+    },
+    "hero175": {
+      "badge": "Autoreparaturen in Dielsdorf",
+      "title": "Ihr vertrauenswürdiger Partner für Karosserieschäden und Frontscheibenreparatur",
+      "subtitle": "Professionelle Autoreparaturen mit Schweizer Qualität, persönlicher Betreuung durch Luigi Reale und Direktabrechnung mit Ihrer Versicherung.",
+      "ctaPrimary": "Jetzt Termin vereinbaren",
+      "ctaSecondary": "Mehr erfahren"
+    },
+    "navbar2": {
+      "menu": {
+        "home": "Startseite",
+        "products": "Produkte",
+        "products_items": {
+          "blog": "Blog",
+          "blog_desc": "Die neuesten Branchennachrichten, Updates und Informationen",
+          "company": "Unternehmen",
+          "company_desc": "Unsere Mission ist es, die Welt zu innovieren und zu stärken",
+          "careers": "Karrieren",
+          "careers_desc": "Durchsuchen Sie Stellenangebote und entdecken Sie unseren Arbeitsplatz",
+          "support": "Unterstützung",
+          "support_desc": "Kontaktieren Sie unser Support-Team oder besuchen Sie unsere Community-Foren"
+        },
+        "resources": "Ressourcen",
+        "resources_items": {
+          "help": "Hilfezentrum",
+          "help_desc": "Finden Sie alle Antworten, die Sie brauchen",
+          "contact": "Kontaktieren Sie uns",
+          "contact_desc": "Wir helfen Ihnen gerne bei Ihren Fragen",
+          "status": "Status",
+          "status_desc": "Überprüfen Sie den aktuellen Status unserer Dienste und APIs",
+          "terms": "Nutzungsbedingungen",
+          "terms_desc": "Unsere Geschäftsbedingungen für die Nutzung unserer Dienste"
+        },
+        "pricing": "Preisgestaltung",
+        "blog": "Blog"
+      },
+      "auth": {
+        "login": "Anmelden",
+        "signup": "Registrieren"
+      }
+    },
+    "footer2": {
+      "logo": "Reale Continental",
+      "tagline": "Ihr zuverlässiger Partner rund ums Auto",
+      "menu": {
+        "services": "Leistungen",
+        "services_bodywork": "Karosserieschäden",
+        "services_windshield": "Frontscheibenreparatur",
+        "services_insurance": "Versicherungsschäden",
+        "contact": "Kontakt",
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutzerklärung"
+      },
+      "copyright": "© 2024 Reale Continental GmbH. Alle Rechte vorbehalten."
+    }
+  }
+}

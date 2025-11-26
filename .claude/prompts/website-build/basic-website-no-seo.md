@@ -11,32 +11,56 @@
 ## INPUTS [EDIT HERE]
 
 ### Business Information
-- **Company/Project Name**: [Your name]
-- **Industry**: [Industry/type]
-- **Purpose**: [What this website is for - 1 sentence]
-- **Target Audience**: [Who will use this]
+🚗🔧 Reale Continental GmbH – Dein zuverlässiger Partner rund ums Auto!
+
+Hallo zusammen!
+Ich wollte euch kurz informieren, dass ich mit meiner Firma Reale Continental GmbH schon seit einiger Zeit Reparaturarbeiten rund ums Auto durchführe – hauptsächlich im Bereich Versicherungsfälle.
+
+💥 Unfall? Kleiner Schaden? Steinschlag in der Scheibe?
+Wir kümmern uns schnell und unkompliziert um:
+
+✅ Karosserieschäden
+✅ Frontscheibenreparaturen/-tausch
+✅ Allgemeine Reparaturen nach Versicherungsschäden
+✅ Abwicklung direkt mit der Versicherung möglich
+
+Wenn bei euch selbst oder im Umfeld mal was sein sollte – denkt gerne an uns!
+**Es würde uns wirklich freuen, wenn ihr uns bei solchen Fällen berücksichtigt.**🙏
+
+Ich freue mich auf eure Kontaktaufnahme – und gerne auch, wenn ihr meine Nummer speichert oder weitergebt.
+
+Vielen Dank für eure Unterstützung!
+
+Luigi Reale
+
+📍 Reale Continental GmbH
+📞 076 420 97 60
+📧 luigireale@hotmail.com
 
 ### Pages Required
 List all pages you need (simpler structure):
 - Homepage
 - About
 - Contact
-- [Add more if needed...]
+- Services
+- Impressum
+- Datenschutz
 
 ### Languages
-- **Languages**: [e.g., en (English only), or en + de]
+- **Languages**: de
 
 ### Features
 Check what you need:
-- [ ] Contact form
+- [x] Contact form
 - [ ] Multi-language support (next-intl)
 - [ ] Newsletter signup
 - [ ] Simple blog
 - [ ] [Other features...]
 
 ### Brand Guidelines (Optional)
-- **Tone**: [Professional / Friendly / Casual]
-- **Colors**: [If you have specific colors]
+- **Tone**: Professional / Friendly
+
+Please do not create any pricing sections and dont create any detail page for each service, just a simple services overview page.
 
 ---
 
