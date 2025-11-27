@@ -109,8 +109,8 @@ const Footer2 = ({
                   </li>
                 ))}
               </ul>
-              <LanguageSwitcher />
             </div>
+              <LanguageSwitcher />
           </div>
         </footer>
       </div>
