@@ -1,3 +1,11 @@
+import Image, { StaticImageData } from "next/image";
+import processStep01 from "@/public/services/process-step-01-damage-report.png";
+import processStep02 from "@/public/services/process-step-02-assessment.png";
+import processStep03 from "@/public/services/process-step-03-repair.png";
+import processStep04 from "@/public/services/process-step-04-quality-handover.png";
+
+const processImages: StaticImageData[] = [processStep01, processStep02, processStep03, processStep04];
+
 interface ProcessStep {
   number: string;
   title: string;
@@ -49,9 +57,11 @@ const Feature102 = ({ title, subtitle, steps }: Feature102Props) => {
                   </p>
                 </div>
               </div>
-              <img
-                src={`https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-${index + 1}.svg`}
+              <Image
+                src={processImages[index]}
                 alt={step.title}
+                width={400}
+                height={225}
                 className="z-10 aspect-video w-full rounded-xl border object-cover min-[960px]:max-h-56 min-[960px]:w-auto"
               />
             </div>

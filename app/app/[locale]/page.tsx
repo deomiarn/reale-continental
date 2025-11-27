@@ -60,7 +60,8 @@ export default async function HomePage() {
                     stats={ [
                         { value: '15+', label: 'Jahre Erfahrung' },
                         { value: '1000+', label: 'Zufriedene Kunden' },
-                        { value: '100%', label: 'Qualitätsgarantie' }
+                        { value: '100%', label: 'Qualitätsgarantie' },
+                        { value: '24h', label: 'Schnelle Bearbeitung' }
                     ] }
                 />
             </section>

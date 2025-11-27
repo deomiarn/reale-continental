@@ -13,7 +13,7 @@ interface Stats19Props {
 const Stats19 = ({ badge, items }: Stats19Props) => {
 
   return (
-    <section className="py-32">
+    <section className="pb-32">
       <div className="container">
         <div className="grid grid-cols-1 gap-20 lg:grid-cols-6">
           <ul className="col-span-6 w-full">

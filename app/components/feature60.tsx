@@ -1,18 +1,25 @@
+import Image, { StaticImageData } from "next/image";
+import missionImage from "@/public/about/mission.png";
+
 interface Feature60Props {
   title: string;
   description: string;
+  image?: StaticImageData;
+  imageAlt?: string;
 }
 
-const Feature60 = ({ title, description }: Feature60Props) => {
+const Feature60 = ({ title, description, image = missionImage, imageAlt = "Mechaniker inspiziert Fahrzeugschaden" }: Feature60Props) => {
   return (
     <section className="py-32">
       <div className="container">
         <div className="lg:flex">
           <div className="lg:w-1/2">
             <div className="mb-6 md:mb-8 lg:mb-0">
-              <img
-                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-                alt="placeholder hero"
+              <Image
+                src={image}
+                alt={imageAlt}
+                width={800}
+                height={600}
                 className="aspect-4/3 border-border w-full rounded-md border object-cover"
               />
             </div>

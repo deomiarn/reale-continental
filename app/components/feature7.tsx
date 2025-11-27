@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Check } from "lucide-react";
 
 interface FeatureItem {
@@ -16,11 +17,15 @@ const Feature7 = ({ title, subtitle, items }: Feature7Props) => {
     <section className="py-32">
       <div className="container">
         <div className="grid items-center gap-8 lg:grid-cols-2">
-          <img
-            src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-            alt="Website components showcase"
-            className="order-2 max-h-96 w-full rounded-md object-cover lg:order-1"
-          />
+          <div className="order-2 lg:order-1">
+            <Image
+              src="/homepage/Luigi-Reale-Lachen.webp"
+              alt="Luigi Reale - Inhaber Reale Continental GmbH"
+              width={400}
+              height={300}
+              className="w-full h-auto max-h-96 rounded-md object-contain"
+            />
+          </div>
           <div className="order-1 flex flex-col lg:order-2 lg:items-start lg:text-left">
             <h2 className="my-6 text-3xl md:text-4xl font-semibold tracking-tight">
               {title}

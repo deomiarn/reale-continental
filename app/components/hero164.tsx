@@ -1,13 +1,17 @@
+import Image, { StaticImageData } from "next/image";
 import { Button } from "@/components/ui/button";
+import heroAbout from "@/public/about/hero-about.png";
 
 interface Hero164Props {
   title: string;
   subtitle: string;
   ctaPrimary: string;
   ctaPrimaryHref?: string;
+  image?: StaticImageData;
+  imageAlt?: string;
 }
 
-const Hero164 = ({ title, subtitle, ctaPrimary, ctaPrimaryHref = "/de/contact" }: Hero164Props) => {
+const Hero164 = ({ title, subtitle, ctaPrimary, ctaPrimaryHref = "/de/contact", image = heroAbout, imageAlt = "Werkstatt Interior - Reale Continental" }: Hero164Props) => {
   return (
     <section className="py-12 md:py-28">
       <div className="container">
@@ -32,9 +36,11 @@ const Hero164 = ({ title, subtitle, ctaPrimary, ctaPrimaryHref = "/de/contact" }
             </div>
           </div>
           <div>
-            <img
-              src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-              alt=""
+            <Image
+              src={image}
+              alt={imageAlt}
+              width={800}
+              height={600}
               className="aspect-[4/3] max-h-[400px] w-full rounded-xl object-cover object-center"
             />
           </div>

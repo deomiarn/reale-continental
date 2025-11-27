@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import {
   CalendarClock,
   ChartNoAxesCombined,
@@ -9,12 +10,17 @@ import {
 import { useTranslations } from 'next-intl';
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import expertiseBodywork from "@/public/about/expertise-bodywork.png";
+import expertiseWindshield from "@/public/about/expertise-windshield.png";
+import expertiseInsurance from "@/public/about/expertise-insurance.png";
+
+import type { StaticImageData } from "next/image";
 
 interface Feature167Item {
   title: string;
   description: string;
   icon?: any;
-  image?: string;
+  image?: StaticImageData;
 }
 
 interface Feature167Props {
@@ -32,19 +38,19 @@ const Feature167 = ({ title, subtitle, description, items }: Feature167Props) =>
       title: t('items.0.title'),
       description: t('items.0.description'),
       icon: SquarePen,
-      image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
+      image: expertiseBodywork,
     },
     {
       title: t('items.1.title'),
       description: t('items.1.description'),
       icon: CalendarClock,
-      image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-2.svg",
+      image: expertiseWindshield,
     },
     {
       title: t('items.2.title'),
       description: t('items.2.description'),
       icon: ChartNoAxesCombined,
-      image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-3.svg",
+      image: expertiseInsurance,
     },
   ];
   return (
@@ -89,21 +95,22 @@ const Feature167 = ({ title, subtitle, description, items }: Feature167Props) =>
           </TabsList>
 
           <div className="relative flex-1">
-            <div className="h-[300px] lg:h-[400px]">
+            <div className="h-[350px] md:h-[450px] lg:h-[500px]">
               {FEATURES_DATA.map((item, index) => (
                 <TabsContent
                   key={index}
                   value={item.title}
                   className="absolute inset-0 m-0 rounded-none p-6 transition-all duration-500 data-[state=inactive]:pointer-events-none data-[state=inactive]:opacity-0 lg:p-12"
                 >
-                  <div className="flex h-full items-center justify-center">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      width={400}
-                      height={400}
-                      className="bg-muted h-full w-full object-contain p-6 lg:p-12 dark:invert"
-                    />
+                  <div className="relative h-full w-full">
+                    {item.image && (
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover object-[center_70%]"
+                      />
+                    )}
                   </div>
                 </TabsContent>
               ))}

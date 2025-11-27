@@ -1,6 +1,12 @@
+import Image, { StaticImageData } from "next/image";
 import { ChevronRight } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
+import valuesQuality from "@/public/about/values-quality.png";
+import valuesReliability from "@/public/about/values-reliability.png";
+import valuesTransparency from "@/public/about/values-transparency.png";
+
+const valuesImages: StaticImageData[] = [valuesQuality, valuesReliability, valuesTransparency];
 
 interface ValueItem {
   title: string;
@@ -29,11 +35,13 @@ const Feature23 = ({ badge, title, subtitle, items }: Feature23Props) => {
         <div className="mt-20 grid gap-10 lg:grid-cols-3 xl:gap-20">
           {items.map((item, index) => (
             <div key={index} className="flex flex-col lg:block">
-              <div className="bg-muted h-full max-h-[500px] rounded-lg border p-3">
-                <img
-                  src={`https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-dark-${index + 1}.svg`}
+              <div className="bg-muted rounded-lg border p-3">
+                <Image
+                  src={valuesImages[index]}
                   alt={item.title}
-                  className="h-full w-full rounded-lg object-cover"
+                  width={400}
+                  height={300}
+                  className="aspect-[4/3] w-full rounded-lg object-cover"
                 />
               </div>
               <div className="p-6">

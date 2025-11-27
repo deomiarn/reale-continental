@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 interface Cta5Props {
@@ -25,11 +26,12 @@ const Cta5 = ({
     <section className="py-32">
       <div className="container">
         <div className="bg-background border-border flex w-full flex-col overflow-hidden rounded-lg border transition-shadow md:rounded-xl lg:flex-row lg:items-center">
-          <div className="w-full shrink-0 self-stretch lg:w-1/2">
-            <img
-              src={imageSrc}
+          <div className="w-full shrink-0 self-stretch lg:w-1/2 relative aspect-[3/2]">
+            <Image
+              src="/homepage/cta-home.png"
               alt={imageAlt}
-              className="aspect-3/2 h-full w-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="w-full shrink-0 px-4 py-6 md:p-8 lg:w-1/2 lg:px-16">

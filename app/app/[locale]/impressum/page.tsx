@@ -8,7 +8,6 @@ export default async function ImpressumPage() {
         <div className="flex flex-col items-center">
             <div className="w-full">
                 <Hero175
-                    badge={t('hero.badge')}
                     title={t('hero.title')}
                     subtitle={t('hero.subtitle')}
                     ctaPrimary=""

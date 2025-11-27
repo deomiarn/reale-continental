@@ -1,7 +1,7 @@
 "use client";
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslations } from 'next-intl';
 
 import { cn } from "@/lib/utils";
@@ -62,6 +62,11 @@ const Navbar2 = ({
   auth,
 }: Navbar2Props) => {
   const t = useTranslations('components.navbar2');
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const defaultLogo = logo || {
     url: "/de",
@@ -147,7 +152,7 @@ const Navbar2 = ({
     signup: { title: t('auth.signup'), url: "#" },
   };
   return (
-    <section className="py-4">
+    <header className="py-4 relative z-40">
       <div className="container">
         {/* Desktop Menu */}
         <nav className="hidden justify-between lg:flex">
@@ -188,49 +193,55 @@ const Navbar2 = ({
               {defaultLogo.src && <img src={defaultLogo.src} className="max-h-8" alt={defaultLogo.alt} />}
               {!defaultLogo.src && <span className="text-lg font-semibold tracking-tighter">{defaultLogo.title}</span>}
             </a>
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="outline" size="icon">
-                  <Menu className="size-4" />
-                </Button>
-              </SheetTrigger>
-              <SheetContent className="overflow-y-auto">
-                <SheetHeader>
-                  <SheetTitle>
-                    <a href={defaultLogo.url} className="flex items-center gap-2">
-                      {defaultLogo.src && <img src={defaultLogo.src} className="max-h-8" alt={defaultLogo.alt} />}
-                      {!defaultLogo.src && <span className="text-lg font-semibold tracking-tighter">{defaultLogo.title}</span>}
-                    </a>
-                  </SheetTitle>
-                </SheetHeader>
-                <div className="flex flex-col gap-6 p-4">
-                  <Accordion
-                    type="single"
-                    collapsible
-                    className="flex w-full flex-col gap-4"
-                  >
-                    {defaultMenu.map((item) => renderMobileMenuItem(item))}
-                  </Accordion>
+            {mounted ? (
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="outline" size="icon">
+                    <Menu className="size-4" />
+                  </Button>
+                </SheetTrigger>
+                <SheetContent className="overflow-y-auto z-[100]">
+                  <SheetHeader>
+                    <SheetTitle>
+                      <a href={defaultLogo.url} className="flex items-center gap-2">
+                        {defaultLogo.src && <img src={defaultLogo.src} className="max-h-8" alt={defaultLogo.alt} />}
+                        {!defaultLogo.src && <span className="text-lg font-semibold tracking-tighter">{defaultLogo.title}</span>}
+                      </a>
+                    </SheetTitle>
+                  </SheetHeader>
+                  <div className="flex flex-col gap-6 p-4">
+                    <Accordion
+                      type="single"
+                      collapsible
+                      className="flex w-full flex-col gap-4"
+                    >
+                      {defaultMenu.map((item) => renderMobileMenuItem(item))}
+                    </Accordion>
 
-                  <div className="flex flex-col gap-3">
-                    {defaultAuth.login.title && (
-                      <Button asChild variant="outline">
-                        <a href={defaultAuth.login.url}>{defaultAuth.login.title}</a>
-                      </Button>
-                    )}
-                    {defaultAuth.signup.title && (
-                      <Button asChild>
-                        <a href={defaultAuth.signup.url}>{defaultAuth.signup.title}</a>
-                      </Button>
-                    )}
+                    <div className="flex flex-col gap-3">
+                      {defaultAuth.login.title && (
+                        <Button asChild variant="outline">
+                          <a href={defaultAuth.login.url}>{defaultAuth.login.title}</a>
+                        </Button>
+                      )}
+                      {defaultAuth.signup.title && (
+                        <Button asChild>
+                          <a href={defaultAuth.signup.url}>{defaultAuth.signup.title}</a>
+                        </Button>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </SheetContent>
-            </Sheet>
+                </SheetContent>
+              </Sheet>
+            ) : (
+              <Button variant="outline" size="icon">
+                <Menu className="size-4" />
+              </Button>
+            )}
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

@@ -3,6 +3,7 @@ import { Hero164 } from '@/components/hero164';
 import { Contact9 } from '@/components/contact9';
 import { Stats19 } from '@/components/stats19';
 import { Cta5 } from '@/components/cta5';
+import ctaContact from '@/public/contact/cta-contact.png';
 
 export default async function ContactPage() {
     const t = await getTranslations('contact');
@@ -16,6 +17,8 @@ export default async function ContactPage() {
                     title={t('hero.title')}
                     subtitle={t('hero.subtitle')}
                     ctaPrimary={tCommon('contactUs')}
+                    image={ctaContact}
+                    imageAlt="Kundengespräch in der Werkstatt"
                 />
             </section>
 

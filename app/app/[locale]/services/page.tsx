@@ -6,6 +6,8 @@ import { Feature102 } from '@/components/feature102';
 import { Feature33 } from '@/components/feature33';
 import { Feature32 } from '@/components/feature32';
 import { Cta5 } from '@/components/cta5';
+import serviceBodywork from '@/public/services/service-bodywork.png';
+import serviceWindshield from '@/public/services/service-windshield.png';
 
 export default async function ServicesPage() {
     const t = await getTranslations('services');
@@ -36,6 +38,8 @@ export default async function ServicesPage() {
                 <Feature60
                     title={t('bodywork.title')}
                     description={t('bodywork.description')}
+                    image={serviceBodywork}
+                    imageAlt="Karosseriereparatur in Arbeit"
                 />
             </section>
 
@@ -44,6 +48,8 @@ export default async function ServicesPage() {
                 <Feature60
                     title={t('windshield.title')}
                     description={t('windshield.description')}
+                    image={serviceWindshield}
+                    imageAlt="Windschutzscheibenreparatur"
                 />
             </section>
 

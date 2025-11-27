@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Card,
   CardContent,
@@ -5,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import guaranteeQuality from "@/public/services/guarantee-quality.png";
 
 interface GuaranteeItem {
   title: string;
@@ -31,10 +33,12 @@ const Feature33 = ({ title, description, features }: Feature33Props) => {
           </p>
         </div>
         <div className="bg-background mx-auto max-w-7xl rounded-lg pr-10 pt-10 lg:pr-32 lg:pt-28">
-          <img
-            src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-dark-1.svg"
-            alt="placeholder"
-            className="h-full max-h-[600px] w-full rounded-bl-lg rounded-tr-lg object-cover"
+          <Image
+            src={guaranteeQuality}
+            alt="Qualitätsgarantie - Reale Continental"
+            width={1200}
+            height={600}
+            className="h-full max-h-[600px] w-full rounded-bl-lg rounded-tr-lg object-cover object-[center_30%]"
           />
         </div>
         <div className="mx-auto mt-14 grid max-w-7xl gap-11 md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
