@@ -1,9 +1,16 @@
+import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero164 } from '@/components/hero164';
 import { Contact9 } from '@/components/contact9';
 import { Stats19 } from '@/components/stats19';
 import { Cta5 } from '@/components/cta5';
 import ctaContact from '@/public/contact/cta-contact.png';
+import { generatePageMetadata } from '@/lib/metadata';
+
+export async function generateMetadata(): Promise<Metadata> {
+    const locale = await getLocale();
+    return generatePageMetadata('contact', locale);
+}
 
 export default async function ContactPage() {
     const t = await getTranslations('contact');

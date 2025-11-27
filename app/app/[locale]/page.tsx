@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Cta14 } from '@/components/cta14';
 import { Services4 } from '@/components/services4';
@@ -6,6 +7,12 @@ import { Process1 } from '@/components/process1';
 import { About16 } from '@/components/about16';
 import { Testimonial18 } from '@/components/testimonial18';
 import { Cta5 } from '@/components/cta5';
+import { generatePageMetadata } from '@/lib/metadata';
+
+export async function generateMetadata(): Promise<Metadata> {
+    const locale = await getLocale();
+    return generatePageMetadata('home', locale);
+}
 
 export default async function HomePage() {
     const t = await getTranslations('home');
