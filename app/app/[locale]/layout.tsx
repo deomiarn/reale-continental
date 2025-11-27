@@ -5,6 +5,11 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
+import { StructuredData } from '@/components/structured-data';
+
+export function generateStaticParams() {
+    return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
     children,
@@ -24,6 +29,7 @@ export default async function LocaleLayout({
 
     return (
         <NextIntlClientProvider messages={messages}>
+            <StructuredData locale={locale} page="home" />
             <Header />
             <main className="relative z-0">{children}</main>
             <Footer />

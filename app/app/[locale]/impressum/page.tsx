@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
 import { Hero175 } from '@/components/hero175';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
+import { generatePageMetadata } from '@/lib/metadata';
+
+export async function generateMetadata(): Promise<Metadata> {
+    const locale = await getLocale();
+    return generatePageMetadata('impressum', locale);
+}
 
 export default async function ImpressumPage() {
     const t = await getTranslations('impressum');

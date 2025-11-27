@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero8 } from '@/components/hero8';
 import { Services6 } from '@/components/services6';
@@ -8,6 +9,12 @@ import { Feature32 } from '@/components/feature32';
 import { Cta5 } from '@/components/cta5';
 import serviceBodywork from '@/public/services/service-bodywork.png';
 import serviceWindshield from '@/public/services/service-windshield.png';
+import { generatePageMetadata } from '@/lib/metadata';
+
+export async function generateMetadata(): Promise<Metadata> {
+    const locale = await getLocale();
+    return generatePageMetadata('services', locale);
+}
 
 export default async function ServicesPage() {
     const t = await getTranslations('services');

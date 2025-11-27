@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero164 } from '@/components/hero164';
 import { Feature60 } from '@/components/feature60';
@@ -7,6 +8,12 @@ import { Feature167 } from '@/components/feature167';
 import { Team4 } from '@/components/team4';
 import { Stats19 } from '@/components/stats19';
 import { Cta5 } from '@/components/cta5';
+import { generatePageMetadata } from '@/lib/metadata';
+
+export async function generateMetadata(): Promise<Metadata> {
+    const locale = await getLocale();
+    return generatePageMetadata('about', locale);
+}
 
 export default async function AboutPage() {
     const t = await getTranslations('about');
