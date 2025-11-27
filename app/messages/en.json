@@ -142,9 +142,16 @@
       ]
     },
     "about": {
+      "badge": "About Reale Continental",
       "title": "About Reale Continental",
       "subtitle": "Experience meets Swiss quality",
-      "description": "Luigi Reale leads a dedicated team with extensive experience in professional auto body repair and windshield services. Based in Dielsdorf, Switzerland, we serve private and business customers throughout the Zurich region with transparent, reliable service and Swiss-quality craftsmanship."
+      "description": "Luigi Reale leads a dedicated team with extensive experience in professional auto body repair and windshield services. Based in Dielsdorf, Switzerland, we serve private and business customers throughout the Zurich region with transparent, reliable service and Swiss-quality craftsmanship.",
+      "stats": [
+        { "value": "5+", "label": "Years Experience" },
+        { "value": "1000+", "label": "Satisfied Customers" },
+        { "value": "100%", "label": "Quality Guarantee" },
+        { "value": "24h", "label": "Fast Turnaround" }
+      ]
     },
     "testimonials": {
       "title": "What Our Customers Say",

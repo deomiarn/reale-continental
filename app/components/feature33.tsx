@@ -32,13 +32,13 @@ const Feature33 = ({ title, description, features }: Feature33Props) => {
             {description}
           </p>
         </div>
-        <div className="bg-background mx-auto max-w-7xl rounded-lg pr-10 pt-10 lg:pr-32 lg:pt-28">
+        <div className="bg-background mx-auto max-w-7xl rounded-lg overflow-hidden">
           <Image
             src={guaranteeQuality}
             alt="Qualitätsgarantie - Reale Continental"
             width={1200}
             height={600}
-            className="h-full max-h-[600px] w-full rounded-bl-lg rounded-tr-lg object-cover object-[center_30%]"
+            className="h-full max-h-[600px] w-full object-cover object-[center_30%]"
           />
         </div>
         <div className="mx-auto mt-14 grid max-w-7xl gap-11 md:grid-cols-2 lg:grid-cols-3 lg:gap-20">

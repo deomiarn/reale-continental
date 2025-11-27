@@ -1,6 +1,7 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { LanguageSwitcher } from '@/components/language-switcher';
 
 interface MenuItem {
   title: string;
@@ -34,12 +35,13 @@ const Footer2 = ({
   bottomLinks,
 }: Footer2Props) => {
   const t = useTranslations('components.footer2');
+  const locale = useLocale();
 
   const defaultLogo = logo || {
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
     alt: "Reale Continental GmbH",
     title: t('logo'),
-    url: "/de",
+    url: `/${locale}`,
   };
 
   const defaultTagline = tagline ?? t('tagline');
@@ -48,9 +50,9 @@ const Footer2 = ({
     {
       title: t('menu.services'),
       links: [
-        { text: t('menu.services_bodywork'), url: "/de/services" },
-        { text: t('menu.services_windshield'), url: "/de/services" },
-        { text: t('menu.services_insurance'), url: "/de/services" },
+        { text: t('menu.services_bodywork'), url: `/${locale}/services` },
+        { text: t('menu.services_windshield'), url: `/${locale}/services` },
+        { text: t('menu.services_insurance'), url: `/${locale}/services` },
       ],
     },
     {
@@ -65,8 +67,8 @@ const Footer2 = ({
   const defaultCopyright = copyright ?? t('copyright');
 
   const defaultBottomLinks = bottomLinks || [
-    { text: t('menu.impressum'), url: "/de/impressum" },
-    { text: t('menu.datenschutz'), url: "/de/datenschutz" },
+    { text: t('menu.impressum'), url: `/${locale}/impressum` },
+    { text: t('menu.datenschutz'), url: `/${locale}/datenschutz` },
   ];
   return (
     <section className="bg-foreground text-background py-32">
@@ -99,13 +101,16 @@ const Footer2 = ({
           </div>
           <div className="text-background/60 mt-24 flex flex-col justify-between gap-4 border-t border-background/20 pt-8 text-sm font-medium md:flex-row md:items-center">
             <p>{defaultCopyright}</p>
-            <ul className="flex gap-4">
-              {defaultBottomLinks.map((link, linkIdx) => (
-                <li key={linkIdx} className="hover:text-accent underline transition-colors">
-                  <a href={link.url}>{link.text}</a>
-                </li>
-              ))}
-            </ul>
+            <div className="flex items-center gap-6">
+              <ul className="flex gap-4">
+                {defaultBottomLinks.map((link, linkIdx) => (
+                  <li key={linkIdx} className="hover:text-accent underline transition-colors">
+                    <a href={link.url}>{link.text}</a>
+                  </li>
+                ))}
+              </ul>
+              <LanguageSwitcher />
+            </div>
           </div>
         </footer>
       </div>

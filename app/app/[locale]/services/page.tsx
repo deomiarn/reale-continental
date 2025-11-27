@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero8 } from '@/components/hero8';
 import { Services6 } from '@/components/services6';
 import { Feature60 } from '@/components/feature60';
@@ -12,6 +12,7 @@ import serviceWindshield from '@/public/services/service-windshield.png';
 export default async function ServicesPage() {
     const t = await getTranslations('services');
     const tCommon = await getTranslations('common.cta');
+    const locale = await getLocale();
 
     return (
         <div className="flex flex-col">
@@ -21,6 +22,7 @@ export default async function ServicesPage() {
                     title={t('hero.title')}
                     subtitle={t('hero.subtitle')}
                     ctaPrimary={t('hero.ctaPrimary')}
+                    ctaPrimaryHref={`/${locale}/contact`}
                 />
             </section>
 
@@ -86,6 +88,8 @@ export default async function ServicesPage() {
                     subtitle={t('cta.subtitle')}
                     ctaPrimary={t('cta.ctaPrimary')}
                     ctaSecondary={t('cta.ctaSecondary')}
+                    ctaPrimaryHref={`/${locale}/contact`}
+                    ctaSecondaryHref={`tel:+41764209760`}
                 />
             </section>
         </div>

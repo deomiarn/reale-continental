@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ChevronRight, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface Cta14Props {
@@ -30,7 +31,7 @@ const Cta14 = ({
             className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/40" />
-          <div className="relative z-10 flex flex-col gap-6 p-6 md:p-4 md:gap-8 text-center max-w-[90%] md:max-w-none">
+          <div className="relative z-10 flex flex-col gap-6 p-10 md:gap-8 text-center max-w-[90%] md:max-w-none">
             <h1 className="text-primary-foreground text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
               {title}
             </h1>
@@ -39,10 +40,10 @@ const Cta14 = ({
             </p>
             <div className="flex flex-col justify-center gap-2 sm:flex-row">
               <Button asChild size="lg" variant="default">
-                <a href={ctaPrimaryHref}>{ctaPrimary}</a>
+                <a href={ctaPrimaryHref}>{ctaPrimary} <ChevronRight className="ml-1 size-4" /></a>
               </Button>
               <Button asChild size="lg" variant="secondary">
-                <a href={ctaSecondaryHref}>{ctaSecondary}</a>
+                <a href={ctaSecondaryHref}>{ctaSecondary} <Wrench className="ml-1 size-4" /></a>
               </Button>
             </div>
           </div>

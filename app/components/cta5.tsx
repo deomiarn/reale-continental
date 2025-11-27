@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ChevronRight, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface Cta5Props {
@@ -43,11 +44,11 @@ const Cta5 = ({
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg">
-                <a href={ctaPrimaryHref}>{ctaPrimary}</a>
+                <a href={ctaPrimaryHref}>{ctaPrimary} <ChevronRight className="ml-1 size-4" /></a>
               </Button>
               {ctaSecondary && (
                 <Button asChild variant="outline" size="lg">
-                  <a href={ctaSecondaryHref}>{ctaSecondary}</a>
+                  <a href={ctaSecondaryHref}>{ctaSecondary} <Info className="ml-1 size-4" /></a>
                 </Button>
               )}
             </div>

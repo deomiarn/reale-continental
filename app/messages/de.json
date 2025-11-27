@@ -142,9 +142,16 @@
       ]
     },
     "about": {
+      "badge": "Über Reale Continental",
       "title": "Über Reale Continental",
       "subtitle": "Erfahrung trifft auf Qualität",
-      "description": "Luigi Reale und sein Team bringen über 5 Jahre Erfahrung in der Fahrzeugreparatur mit. Mit Sitz in Dielsdorf im Zürcher Unterland bieten wir professionelle Autoreparaturen für Privat- und Geschäftskunden aus der Region und darüber hinaus – mit persönlicher Betreuung und garantierter Schweizer Qualität."
+      "description": "Luigi Reale und sein Team bringen über 5 Jahre Erfahrung in der Fahrzeugreparatur mit. Mit Sitz in Dielsdorf im Zürcher Unterland bieten wir professionelle Autoreparaturen für Privat- und Geschäftskunden aus der Region und darüber hinaus – mit persönlicher Betreuung und garantierter Schweizer Qualität.",
+      "stats": [
+        { "value": "5+", "label": "Jahre Erfahrung" },
+        { "value": "1000+", "label": "Zufriedene Kunden" },
+        { "value": "100%", "label": "Qualitätsgarantie" },
+        { "value": "24h", "label": "Schnelle Bearbeitung" }
+      ]
     },
     "testimonials": {
       "title": "Das sagen unsere Kunden",

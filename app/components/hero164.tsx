@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import { ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroAbout from "@/public/about/hero-about.png";
 
@@ -30,7 +31,7 @@ const Hero164 = ({ title, subtitle, ctaPrimary, ctaPrimaryHref = "/de/contact", 
                   size="lg"
                   className="w-fit"
                 >
-                  <a href={ctaPrimaryHref}>{ctaPrimary}</a>
+                  <a href={ctaPrimaryHref}>{ctaPrimary} <ChevronRight className="ml-1 size-4" /></a>
                 </Button>
               </div>
             </div>

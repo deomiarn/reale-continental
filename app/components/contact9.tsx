@@ -117,7 +117,7 @@ const Contact9 = ({ badge, title, subtitle, methods, fields, terms, termsLink, s
               </div>
             </div>
 
-            <Button type="submit">{submit}</Button>
+            <Button type="submit">{submit} <ChevronRight className="ml-1 size-4" /></Button>
           </form>
 
           <div className="grid flex-1 gap-6 self-start lg:grid-cols-2">

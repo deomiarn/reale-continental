@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero164 } from '@/components/hero164';
 import { Feature60 } from '@/components/feature60';
 import { Feature23 } from '@/components/feature23';
@@ -11,6 +11,7 @@ import { Cta5 } from '@/components/cta5';
 export default async function AboutPage() {
     const t = await getTranslations('about');
     const tCommon = await getTranslations('common.cta');
+    const locale = await getLocale();
 
     return (
         <div className="flex flex-col">
@@ -20,6 +21,7 @@ export default async function AboutPage() {
                     title={t('hero.title')}
                     subtitle={t('hero.subtitle')}
                     ctaPrimary={tCommon('contactUs')}
+                    ctaPrimaryHref={`/${locale}/contact`}
                 />
             </section>
 
@@ -82,6 +84,8 @@ export default async function AboutPage() {
                     subtitle={t('cta.subtitle')}
                     ctaPrimary={t('cta.ctaPrimary')}
                     ctaSecondary={t('cta.ctaSecondary')}
+                    ctaPrimaryHref={`/${locale}/contact`}
+                    ctaSecondaryHref={`/${locale}/services`}
                 />
             </section>
         </div>

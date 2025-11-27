@@ -1,3 +1,6 @@
+import Image from "next/image";
+import luigiImage from "@/public/homepage/Luigi-Reale-Lachen.webp";
+
 interface TeamMember {
   name: string;
   role: string;
@@ -26,13 +29,23 @@ const Team4 = ({ title, subtitle, members }: Team4Props) => {
         <div className="mt-10 grid gap-x-12 gap-y-16 sm:grid-cols-2 md:mt-14 lg:grid-cols-4">
           {members.map((member) => (
             <div key={member.name} className="group flex flex-col">
-              <img
-                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/avatar-1.webp"
-                alt={member.name}
-                width={80}
-                height={80}
-                className="rounded-full object-contain"
-              />
+              {member.name === "Luigi Reale" ? (
+                <Image
+                  src={luigiImage}
+                  alt={member.name}
+                  width={80}
+                  height={80}
+                  className="rounded-full object-cover"
+                />
+              ) : (
+                <img
+                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/avatar-1.webp"
+                  alt={member.name}
+                  width={80}
+                  height={80}
+                  className="rounded-full object-contain"
+                />
+              )}
               <div className="mt-6 flex flex-col">
                 <h3 className="text-lg font-semibold">{member.name}</h3>
                 <p className="text-muted-foreground">{member.role}</p>

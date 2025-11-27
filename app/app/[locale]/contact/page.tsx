@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Hero164 } from '@/components/hero164';
 import { Contact9 } from '@/components/contact9';
 import { Stats19 } from '@/components/stats19';
@@ -8,6 +8,7 @@ import ctaContact from '@/public/contact/cta-contact.png';
 export default async function ContactPage() {
     const t = await getTranslations('contact');
     const tCommon = await getTranslations('common.cta');
+    const locale = await getLocale();
 
     return (
         <div className="flex flex-col">
@@ -16,7 +17,8 @@ export default async function ContactPage() {
                 <Hero164
                     title={t('hero.title')}
                     subtitle={t('hero.subtitle')}
-                    ctaPrimary={tCommon('contactUs')}
+                    ctaPrimary={tCommon('callNow')}
+                    ctaPrimaryHref="tel:+41764209760"
                     image={ctaContact}
                     imageAlt="Kundengespräch in der Werkstatt"
                 />
@@ -79,6 +81,8 @@ export default async function ContactPage() {
                     subtitle={t('cta.subtitle')}
                     ctaPrimary={t('cta.ctaPrimary')}
                     ctaSecondary={t('cta.ctaSecondary')}
+                    ctaPrimaryHref="tel:+41764209760"
+                    ctaSecondaryHref={`/${locale}/services`}
                 />
             </section>
         </div>

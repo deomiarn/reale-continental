@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Cta14 } from '@/components/cta14';
 import { Services4 } from '@/components/services4';
 import { Feature7 } from '@/components/feature7';
@@ -10,6 +10,7 @@ import { Cta5 } from '@/components/cta5';
 export default async function HomePage() {
     const t = await getTranslations('home');
     const tCommon = await getTranslations('common.cta');
+    const locale = await getLocale();
 
     return (
         <div className="flex flex-col">
@@ -20,6 +21,8 @@ export default async function HomePage() {
                     subtitle={ t('hero.subtitle') }
                     ctaPrimary={ t('hero.ctaPrimary') }
                     ctaSecondary={ t('hero.ctaSecondary') }
+                    ctaPrimaryHref={ `/${locale}/contact` }
+                    ctaSecondaryHref={ `/${locale}/services` }
                 />
             </section>
 
@@ -47,6 +50,7 @@ export default async function HomePage() {
                     title={ t('process.title') }
                     subtitle={ t('process.subtitle') }
                     ctaText={ tCommon('contactUs') }
+                    ctaHref={ `/${locale}/contact` }
                     steps={ t.raw('process.steps') }
                 />
             </section>
@@ -54,15 +58,10 @@ export default async function HomePage() {
             {/* About/Stats - White bg */ }
             <section className="w-full bg-background">
                 <About16
-                    badge="Über Reale Continental"
+                    badge={ t('about.badge') }
                     title={ t('about.title') }
                     subtitle={ t('about.description') }
-                    stats={ [
-                        { value: '15+', label: 'Jahre Erfahrung' },
-                        { value: '1000+', label: 'Zufriedene Kunden' },
-                        { value: '100%', label: 'Qualitätsgarantie' },
-                        { value: '24h', label: 'Schnelle Bearbeitung' }
-                    ] }
+                    stats={ t.raw('about.stats') }
                 />
             </section>
 
@@ -82,6 +81,8 @@ export default async function HomePage() {
                     subtitle={ t('finalCta.subtitle') }
                     ctaPrimary={ t('finalCta.ctaPrimary') }
                     ctaSecondary={ t('finalCta.ctaSecondary') }
+                    ctaPrimaryHref={ `/${locale}/contact` }
+                    ctaSecondaryHref={ `/${locale}/services` }
                 />
             </section>
         </div>

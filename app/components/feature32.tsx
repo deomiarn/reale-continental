@@ -18,7 +18,7 @@ const Feature32 = ({ title, items }: Feature32Props) => {
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.length > 0 && (
-            <div className="bg-accent rounded-lg p-16 md:col-span-2 lg:col-span-2 lg:row-span-2">
+            <div className="bg-accent rounded-lg p-10 md:col-span-2 lg:col-span-2 lg:row-span-2">
               <div className="flex h-full flex-col justify-between gap-14">
                 <q className="pt-8 text-2xl font-medium lg:pt-14 lg:text-4xl">
                   {items[0].text}

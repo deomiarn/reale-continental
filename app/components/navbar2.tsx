@@ -1,8 +1,8 @@
 "use client";
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
-import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { Book, ChevronRight, Menu, Sunset, Trees, Zap } from "lucide-react";
 import React, { useState, useEffect } from "react";
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 import { cn } from "@/lib/utils";
 
@@ -13,6 +13,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { LanguageSwitcher } from "@/components/language-switcher";
 import {
   NavigationMenuContent,
   NavigationMenuItem,
@@ -62,6 +63,7 @@ const Navbar2 = ({
   auth,
 }: Navbar2Props) => {
   const t = useTranslations('components.navbar2');
+  const locale = useLocale();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -69,14 +71,14 @@ const Navbar2 = ({
   }, []);
 
   const defaultLogo = logo || {
-    url: "/de",
+    url: `/${locale}`,
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
     title: "Reale Continental",
   };
 
   const defaultMenu = menu || [
-    { title: t('menu.home'), url: "/de" },
+    { title: t('menu.home'), url: `/${locale}` },
     {
       title: t('menu.products'),
       url: "#",
@@ -172,17 +174,20 @@ const Navbar2 = ({
               </NavigationMenuWithoutViewport>
             </div>
           </div>
-          <div className="flex gap-2">
-            {defaultAuth.login.title && (
-              <Button asChild variant="outline" size="sm">
-                <a href={defaultAuth.login.url}>{defaultAuth.login.title}</a>
-              </Button>
-            )}
-            {defaultAuth.signup.title && (
-              <Button asChild size="sm">
-                <a href={defaultAuth.signup.url}>{defaultAuth.signup.title}</a>
-              </Button>
-            )}
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <div className="flex gap-2">
+              {defaultAuth.login.title && (
+                <Button asChild variant="outline" size="sm">
+                  <a href={defaultAuth.login.url}>{defaultAuth.login.title}</a>
+                </Button>
+              )}
+              {defaultAuth.signup.title && (
+                <Button asChild size="sm">
+                  <a href={defaultAuth.signup.url}>{defaultAuth.signup.title} <ChevronRight className="ml-1 size-4" /></a>
+                </Button>
+              )}
+            </div>
           </div>
         </nav>
 
@@ -226,9 +231,12 @@ const Navbar2 = ({
                       )}
                       {defaultAuth.signup.title && (
                         <Button asChild>
-                          <a href={defaultAuth.signup.url}>{defaultAuth.signup.title}</a>
+                          <a href={defaultAuth.signup.url}>{defaultAuth.signup.title} <ChevronRight className="ml-1 size-4" /></a>
                         </Button>
                       )}
+                      <div className="pt-4 border-t">
+                        <LanguageSwitcher />
+                      </div>
                     </div>
                   </div>
                 </SheetContent>
